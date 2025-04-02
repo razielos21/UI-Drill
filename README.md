@@ -27,10 +27,8 @@ Pick a date for the movie.
 Select the screen type.
 Click the "Sum" button to see the order summary.
 Click the "Get Tickets" button to confirm the order.
-Dependencies
-AndroidX
-Material Components for Android
-##License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## Dependencies
+[AndroidX](https://developer.android.com/jetpack/androidx_
+[Material Components for Android](https://m2.material.io/develop/android)
 
 Make sure to replace the placeholder values (e.g., `yourusername`, `your-repo-name`, and screenshot paths) with the actual values for your project.
