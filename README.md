@@ -28,7 +28,8 @@ This is a simple Android application for booking cinema tickets. The app allows 
 6. Click the "Summary" button to see the order summary.
 7. Click the "Get Tickets" button to confirm the order.
 ## Dependencies
-[AndroidX](https://developer.android.com/jetpack/androidx)\n
+[AndroidX](https://developer.android.com/jetpack/androidx)
+
 [Material Components for Android](https://m2.material.io/develop/android)
 
 Make sure to replace the placeholder values (e.g., `yourusername`, `your-repo-name`, and screenshot paths) with the actual values for your project.
