@@ -11,11 +11,6 @@ This is a simple Android application for booking cinema tickets. The app allows 
 - Calculate and display the total price
 - Show order summary and confirmation dialogs
 
-## Screenshots
-
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
-
 ## Installation
 
 1. Clone the repository:
