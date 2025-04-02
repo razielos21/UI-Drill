@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:padding="6dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!-- First Poster -->
+        <ImageButton
+            android:id="@+id/first_poster"
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@string/first_poster_desc"
+            android:scaleType="fitXY"
+            android:src="@drawable/first_poster" />
+
+        <TextView
+            android:id="@+id/first_desc"
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/first_poster_desc"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            android:visibility="gone"/>
+        <!-- Second Poster -->
+        <ImageButton
+            android:id="@+id/second_poster"
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@string/second_poster_desc"
+            android:scaleType="fitXY"
+            android:src="@drawable/second_poster" />
+        <TextView
+            android:id="@+id/second_desc"
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/second_poster_desc"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            android:visibility="gone"/>
+    </LinearLayout>
+    <!-- Please enter your name -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/name_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/name_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name_input"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <!-- Cinema Selector -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="16dp"
+        app:cardBackgroundColor="@color/dark_grey"
+        app:cardElevation="4dp">
+
+        <Spinner
+            android:id="@+id/cinema_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/cinemas"
+            android:padding="16dp"
+            android:gravity="center" />
+    </androidx.cardview.widget.CardView>
+    <!-- Screen Type -->
+    <RadioGroup
+        android:id="@+id/screen_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <RadioButton
+            android:id="@+id/two_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_2d" />
+        <RadioButton
+            android:id="@+id/imax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/imax"/>
+        <RadioButton
+            android:id="@+id/three_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_3d"/>
+        <RadioButton
+            android:id="@+id/four_dx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_4dx"/>
+    </RadioGroup>
+    <!-- Adult Tickets -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/adult_tickets"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="16dp"
+                app:cardBackgroundColor="@color/dark_grey">
+                <Spinner
+                    android:id="@+id/adult_tickets_spinner"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/ticket_numbers"
+                    android:gravity="center"
+                    android:padding="10dp" />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/adult_ticket_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+        <!-- Child Tickets -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/child_tickets"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="16dp" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="16dp"
+                app:cardBackgroundColor="@color/dark_grey">
+                <Spinner
+                    android:id="@+id/child_tickets_spinner"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/ticket_numbers"
+                    android:gravity="center"
+                    android:padding="10dp" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/child_ticket_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="8dp"/>
+        <!-- Date Selector -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="16dp">
+            <Button
+                android:id="@+id/date_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/select_date"
+                android:background="@color/dark_grey"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!-- Order Summary Button -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="16dp"
+            app:cardBackgroundColor="@color/dark_grey">
+            <Button
+                android:id="@+id/sum_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/summary"
+                android:textColor="@color/white"
+                android:background="@color/dark_grey"
+                android:layout_margin="10dp"/>
+        </androidx.cardview.widget.CardView>
+        <!-- Get Tickets Button -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="16dp"
+            app:cardBackgroundColor="@color/dark_grey">
+            <Button
+                android:id="@+id/get_tickets"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/get_tickets"
+                android:textColor="@color/white"
+                android:background="@color/dark_grey"
+                android:layout_margin="10dp"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

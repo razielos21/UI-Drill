@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="second_poster_desc">שלג במדבר תאריך יציאה: 25 במרץ 2025 זמן: שעתיים ו-18 דקות דירוג: 8.5/10 ז\'אנר: אקשן, הרפתקאות במאי: ג\'ון דואו כוכבים: לאונרדו דיקפריו, טום הארדי, וויל פולטר</string>
+    <string name="first_poster_desc">קבוצת חברים יוצאת לטיול במדבר, כשלפתע מזג האוויר משתנה ומתחיל לרדת שלג, מה שמעלה את השאלה איך יכול לרדת שלג במדבר, ומה יעשו החברים כדי לחזור הביתה.</string>
+    <string name="name_input">הכנס שם</string>
+    <string name="child_tickets">בחר כמות כרטיסים לילדים:</string>
+    <string name="select_date">בחר תאריך</string>
+    <string name="adult_tickets">בחר כמות כרטיסים למבוגרים:</string>
+    <string name="summary">סיכום הזמנה</string>
+    <string name="get_tickets">קנה כרטיסים</string>
+    <string name="ok">אוקיי</string>
+    <string name="orderSummary">סיכום הזמנה</string>
+    <string name="missing">פרטים חסרים</string>
+    <string name="adults">מבוגרים | סך הכל:</string>
+    <string name="children">ילדים | סך הכל:</string>
+    <string name="only_letters">נא לרשום רק אותיות</string>
+    <string name="please_name">נא הכנס את שמך.</string>
+    <string name ="please_cinema">נא בחר בית קולנוע.</string>
+    <string name="please_date">נא בחר תאריך.</string>
+    <string name ="please_screen_type">נא בחר סוג הקרנה.</string>
+    <string name ="please_ticket">נא בחר לפחות כרטיס אחד.</string>
+    <string name ="confirmation">הזמנה התקבלה!</string>
+    <string name = "name">שם:</string>
+    <string name = "cinema">בית קולנוע:</string>
+    <string name = "screen_type">סוג הקרנה:</string>
+    <string name = "date">תאריך:</string>
+    <string name = "number_adult_tickets">כמות כרטיסי מבוגרים:</string>
+    <string name = "number_child_tickets">כמות כרטיסי ילדים:</string>
+    <string name = "total">סך הכל:</string>
+    <string-array name="cinemas">
+        <item>בחר בית קולנוע</item>
+        <item>ראשון לציון</item>
+        <item>חולון</item>
+        <item>תל אביב</item>
+        <item>רחובות</item>
+    </string-array>
+</resources>

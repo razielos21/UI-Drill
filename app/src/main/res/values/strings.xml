@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name" translatable="false">Raziel UI Drill</string>
+    <string name="second_poster_desc">Snow in the Desert\nRelease Date: 25 March 2025\nRunning Time: 2h 18m\nRating: 8.5/10\nGenre: Action, Adventure\nDirector: John Doe\nStars: Leonardo DiCaprio, Tom Hardy, Will Poulter</string>
+    <string name="first_poster_desc">A group of friends going on a trip to the desert, when suddenly the weather changes and it starts snowing, raising the question of how snow can fall in the desert, and what the friends will do to get back home.</string>
+    <string name="name_input">Enter your name</string>
+    <string name="_4dx" translatable="false">4DX</string>
+    <string name="_3d" translatable="false">3D</string>
+    <string name="imax" translatable="false">IMAX</string>
+    <string name="_2d" translatable="false">2D</string>
+    <string name="adult_tickets">Select number of adult tickets:</string>
+    <string name="child_tickets">Select number of child tickets:</string>
+    <string name="select_date">Select date</string>
+    <string name="summary">Summary</string>
+    <string name="get_tickets">Get Tickets</string>
+    <string name="ok">OK</string>
+    <string name="orderSummary">ORDER SUMMARY</string>
+    <string name="missing">Missing Details</string>
+    <string name="adults">Adults | Total:</string>
+    <string name="children">Children | Total:</string>
+    <string name="only_letters">Only letters are allowed</string>
+    <string name="please_name">Please enter your name.</string>
+    <string name ="please_cinema">Please select a cinema.</string>
+    <string name="please_date">Please select a date.</string>
+    <string name ="please_screen_type">Please select a screen type.</string>
+    <string name ="please_ticket">Please select at least one ticket.</string>
+    <string name ="confirmation">ORDER CONFIRMED!</string>
+    <string name = "name">Name:</string>
+    <string name = "cinema">Cinema:</string>
+    <string name = "screen_type">Screen Type:</string>
+    <string name = "date">Date:</string>
+    <string name = "number_adult_tickets">Number of adult tickets:</string>
+    <string name = "number_child_tickets">Number of child tickets:</string>
+    <string name = "total">Total price:</string>
+    <string-array name="cinemas">
+        <item>Select a cinema</item>
+        <item>Rishon Lezion</item>
+        <item>Holon</item>
+        <item>Tel Aviv</item>
+        <item>Rehovot</item>
+    </string-array>
+    <string-array name="ticket_numbers">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>
