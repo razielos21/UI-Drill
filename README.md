@@ -20,15 +20,15 @@ This is a simple Android application for booking cinema tickets. The app allows 
 3. Build and run the project on an Android device or emulator.
 
 ## Usage
-Open the app.
-Select a cinema from the dropdown list.
-Choose the number of adult and child tickets.
-Pick a date for the movie.
-Select the screen type.
-Click the "Sum" button to see the order summary.
-Click the "Get Tickets" button to confirm the order.
+1. Open the app.
+2. Select a cinema from the dropdown list.
+3. Choose the number of adult and child tickets.
+4. Pick a date for the movie.
+5. Select the screen type.
+6. Click the "Summary" button to see the order summary.
+7. Click the "Get Tickets" button to confirm the order.
 ## Dependencies
-[AndroidX](https://developer.android.com/jetpack/androidx)
+[AndroidX](https://developer.android.com/jetpack/androidx)\n
 [Material Components for Android](https://m2.material.io/develop/android)
 
 Make sure to replace the placeholder values (e.g., `yourusername`, `your-repo-name`, and screenshot paths) with the actual values for your project.
